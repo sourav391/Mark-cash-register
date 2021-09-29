@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sourav|Cash</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="navigation navvv">
+        <div class="nav-brand">
+            <h5>Welcome</h5>
+
+        </div>
+
+        <div class="nav-brand2">
+            Cash Register <br>
+            <p>
+                <h6> Just enter the amount and you know how much change you will get back
+
+
+
+                </h6>
+            </p>
+        </div>
+
+
+    </nav>
+
+    <section class="container">
+        <label for="billAmount" class="billLabel">Enter the Bill Amount : </label>
+        <br>
+        <input type="number" name="billAmount" id="billAmount">
+
+        <br>
+        <button class="next-btn">Next</button>
+
+        <br>
+        <section class="hide">
+            <label for="userAmount" class="amountLabel">Enter the Amount you paid : </label>
+            <br>
+            <input type="number" name="userAmount" id="userAmount">
+
+            <button class="check-btn">Check</button>
+
+            <p class="errorMsg"></p>
+
+
+            <p class="p-text">
+                Return Change
+            </p>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="td-center">No of Notes</td>
+                        <td class="td-center no-of-notes"></td>
+                        <td class="td-center no-of-notes"></td>
+                        <td class="td-center no-of-notes"></td>
+                        <td class="td-center no-of-notes"></td>
+                        <td class="td-center no-of-notes"></td>
+                        <td class="td-center no-of-notes"></td>
+                        <td class="td-center no-of-notes"></td>
+                    </tr>
+                    <tr>
+                        <td class="td-center">Notes</td>
+                        <td class="td-center">2000</td>
+                        <td class="td-center">500</td>
+                        <td class="td-center">100</td>
+                        <td class="td-center">20</td>
+                        <td class="td-center">10</td>
+                        <td class="td-center">5</td>
+                        <td class="td-center">1</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <p class="p-hide"></p>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
